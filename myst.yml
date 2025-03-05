@@ -3,6 +3,8 @@ version: 1
 project:
   id: ee007168-b9a5-4dba-8823-1639a4aeb956
   title: Hello Landing Pages
+  toc:
+    - file: index.md
 site:
   template: book-theme
   title: Hello Landing Pages
