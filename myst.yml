@@ -12,3 +12,6 @@ site:
     favicon: favicon.ico
     logo: site_logo.png
     logo_text: Landing Pages
+
+  parts:
+    footer: footer.md
