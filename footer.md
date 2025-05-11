@@ -1,12 +1,17 @@
+<h1></h1>
+
 +++ {"kind": "footer"}
 
-## My Project's Title
+<h4>Scientific Python</h4>
 
 ```{image} https://scientific-python.org/images/logo.svg
 :width: 50px
+:align: left
 ```
 
 This is a description of our project. And a [link to its homepage](https://scientific-python.org).
+
+<!-- +++ {"kind": "footer-social-icons"} -->
 
 +++ {"kind": "footer-columns"}
 
