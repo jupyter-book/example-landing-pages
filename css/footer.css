@@ -1,0 +1,22 @@
+.footer > .grid {
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  background: #013243;
+  color: white;
+}
+
+.footer > .grid li {
+  list-style: none;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer h3 {
+  color: white;
+}

@@ -1,7 +1,11 @@
 <h1></h1>
 
-+++ {"kind": "footer-description"}
+:::::{div}
+:class: footer col-screen
 
+::::{grid} 2 2 4 4
+
+:::{div}
 <h4>Scientific Python</h4>
 
 ```{image} https://scientific-python.org/images/logo.svg
@@ -10,18 +14,23 @@
 ```
 
 This is a description of our project. And a [link to its homepage](https://scientific-python.org).
+:::
 
-+++ {"kind": "footer-column", "class": "list-none"}
-
+:::{div}
 - [About](https://scientific-python.org/about/)
 - [Scientific Python blog](https://blog.scientific-python.org)
 - [Tools](https://tools.scientific-python.org)
+:::
 
-+++ {"kind": "footer-column", "class": "list-none"}
-
+:::{div}
 - A second column!
 - With multiple entries
+:::
 
-+++ {"kind": "footer-column", "class": "list-none"}
-
+:::{div}
 - And what about a third
+:::
+
+::::
+
+:::::
