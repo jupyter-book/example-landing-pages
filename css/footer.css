@@ -11,11 +11,6 @@
     & li {
       list-style: none;
     }
-
-    /* Inner links grid */
-    & .inner-grid {
-      align-items: top;
-    }
   }
 
   /* Heading colours */
