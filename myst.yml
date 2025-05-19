@@ -5,6 +5,22 @@ project:
   title: Hello Landing Pages
   toc:
     - file: index.md
+    - title: Text
+      children: []
+    - title: Text
+      children: []
+    - title: Text
+      children: []
+    - title: Text
+      children: []
+    - title: Text
+      children: []
+    - title: Text
+      children: []
+    - title: Text
+      children: []
+    - title: Text
+      children: []
 site:
   template: book-theme
   title: Hello Landing Pages

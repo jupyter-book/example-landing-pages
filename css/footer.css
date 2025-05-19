@@ -1,22 +1,31 @@
-.footer > .grid {
-  padding-right: 10rem;
-  padding-left: 10rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
-  align-items: center;
+.footer {
   background: #013243;
   color: white;
-}
 
-.footer > .grid li {
-  list-style: none;
-}
+  /* Outer content grid */
+  & .outer-grid {
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    margin-bottom: 0rem;
 
-.footer a {
-  color: white;
-}
+    & li {
+      list-style: none;
+    }
 
-.footer h3 {
-  color: white;
+    /* Inner links grid */
+    & .inner-grid {
+      align-items: top;
+    }
+  }
+
+  /* Heading colours */
+  & a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: white;
+  }
 }
