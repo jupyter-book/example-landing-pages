@@ -1,7 +1,7 @@
 % Here we're using `grid` to imply grid semantics -- the actual
 % formatting (including columns) is handled by CSS
 :::::{grid} 1 1 2 2
-:class: outer-grid
+:class: outer-grid col-screen
 
 ::::{div}
 

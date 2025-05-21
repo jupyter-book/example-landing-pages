@@ -1,6 +1,8 @@
 .footer {
   background: #013243;
   color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
 
   /* Outer content grid */
   & .outer-grid {
@@ -22,5 +24,9 @@
   h5,
   h6 {
     color: white;
+  }
+
+  & h1 {
+    font-size: 1.5rem;
   }
 }
