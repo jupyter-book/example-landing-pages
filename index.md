@@ -1,9 +1,9 @@
 ---
 title: Welcome to My Landing Page
 site:
-  hide_outline: true
-  hide_toc: true
   hide_title_block: true
+  hide_toc: true
+  hide_outline: true
 ---
 
 +++ { "kind": "split-image" }
