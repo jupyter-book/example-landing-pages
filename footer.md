@@ -1,8 +1,8 @@
 % This defines the footer of the site, and is not parsed as a regular "page"
 % We point to it with the following in `myst.yml`:
 % site:
-%   parts:
-%     footer: footer.md
+% parts:
+% footer: footer.md
 
 % Here we use `grid` to add a basic grid structure to the HTML,
 % but the formatting column sizes are defined manually in css/footer.css
@@ -10,11 +10,8 @@
 :::::{grid} 3 3 5 5
 :class: outer-grid col-screen
 
-<!-- Left spacer -->
-::::{div}
-::::
-
 <!-- Project description -->
+
 ::::{div}
 
 # Landing Pages
@@ -28,11 +25,13 @@ This is a description of our project. And a [link to its homepage](https://githu
 ::::
 
 <!-- Spacer between project description and links columns -->
+
 ::::{div}
 ::::
 
 <!-- Link columns -->
-% This a *second* grid embedded within the first one, to create nicer
+
+% This a _second_ grid embedded within the first one, to create nicer
 % responsive design experience. This grid will have a single column on narrow screens,
 % and fan out into three columns on wide screens. However, it always remains within
 % its parent grid column.
@@ -43,23 +42,19 @@ This is a description of our project. And a [link to its homepage](https://githu
 - [About](https://mystmd.org/overview/ecosystem)
 - [Guide](https://mystmd.org/guide)
 - [Sandbox](https://mystmd.org/sandbox)
-:::
+  :::
 
 :::{div}
 
 - A second column!
 - With multiple entries
-:::
+  :::
 
 :::{div}
 
 - And what about a third
-:::
+  :::
 
-::::
-
-<!-- Right-most spacer -->
-::::{div}
 ::::
 
 :::::
