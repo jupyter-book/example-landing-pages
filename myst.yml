@@ -12,3 +12,7 @@ site:
     favicon: favicon.ico
     logo: site_logo.png
     logo_text: Landing Pages
+    style: ./css/footer.css
+
+  parts:
+    footer: footer.md
