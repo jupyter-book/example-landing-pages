@@ -1,28 +1,37 @@
 % Here we're using `grid` to imply grid semantics -- the actual
 % formatting (including columns) is handled by CSS
-:::::{grid} 1 1 2 2
+:::::{grid} 3 3 5 5:::
 :class: outer-grid col-screen
 
+<!-- Left spacer -->
+::::{div}
+::::
+
+<!-- Project description -->
 ::::{div}
 
-# Scientific Python
+# Landing Pages
 
-```{image} https://scientific-python.org/images/logo.svg
+```{image} https://jupyterbook.org/en/stable/_images/logo-square.svg
 :width: 50px
 :align: left
 ```
 
-This is a description of our project. And a [link to its homepage](https://scientific-python.org).
+This is a description of our project. And a [link to its homepage](https://github.com/jupyter-book/example-landing-pages).
 ::::
 
-::::{grid} 1 2 3 3
-:class: inner-grid
+<!-- Spacer between project description and links columns -->
+::::{div}
+::::
+
+<!-- Link columns -->
+::::{grid} 1 1 3 3
 
 :::{div}
 
-- [About](https://scientific-python.org/about/)
-- [Scientific Python blog](https://blog.scientific-python.org)
-- [Tools](https://tools.scientific-python.org)
+- [About](https://mystmd.org/overview/ecosystem)
+- [Guide](https://mystmd.org/guide)
+- [Sandbox](https://mystmd.org/sandbox)
   :::
 
 :::{div}
@@ -34,8 +43,12 @@ This is a description of our project. And a [link to its homepage](https://scien
 :::{div}
 
 - And what about a third
-  :::
+:::
 
+::::
+
+<!-- Right-most spacer -->
+::::{div}
 ::::
 
 :::::
