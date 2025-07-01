@@ -12,7 +12,9 @@ body {
    * doesn't push the footer offscreen.
    */
   min-height: 0vh;
-  flex: 1 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
 }
 
 .footer {
