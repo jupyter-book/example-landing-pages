@@ -3,8 +3,11 @@ version: 1
 project:
   id: ee007168-b9a5-4dba-8823-1639a4aeb956
   title: Hello Landing Pages
+  abbreviations:
+    CSS: Cascading Style Sheet
   toc:
     - file: index.md
+    - file: other-page.md
 site:
   template: book-theme
   title: Hello Landing Pages
